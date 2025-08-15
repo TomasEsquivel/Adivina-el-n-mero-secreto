@@ -9,8 +9,6 @@ function asignarTexto(elemento, texto){
 function generarNumSecreto(){
     //Primero almaceno el número secreto en una variable.
     let numeroGenerado = Math.floor(Math.random()*10) + 1;
-    console.log(numeroGenerado);
-    console.log(numerosGenerados);
     
     if(numerosGenerados.length >= 10){
         numerosGenerados.splice(0, 10);
